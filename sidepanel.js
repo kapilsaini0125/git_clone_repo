@@ -147,7 +147,7 @@ function escapeHtml(unsafe) {
 }
 
 async function searchYouTubeVideo(query) {
-  const API_KEY = 'AIzaSyBrOgLL_RpvYMOyBXtGV92E2fCTTOLc42U';
+  const API_KEY = 'AIzaSyAwD4vaJLnElP8Qsc8_xVqneZfkoH86KbY';
   const FALLBACK_VIDEO_ID = 'dQw4w9WgXcQ'; // Never Gonna Give You Up
   
   // Validate query
