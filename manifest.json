@@ -20,9 +20,17 @@
   "permissions": [
     "sidePanel",
     "activeTab",
-    "scripting"
+    "scripting",
+    "clipboardWrite"
   ],
   "host_permissions": [
-    "<all_urls>"
-  ]
+    "<all_urls>",
+    "https://www.youtube.com/*"
+  ],
+  "optional_host_permissions": [  
+    "https://*.youtube.com/"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
 }
